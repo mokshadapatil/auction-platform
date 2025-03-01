@@ -1,0 +1,20 @@
+/* Ensure the app takes full height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure the content expands to push the footer down */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Background Image */
+body {
+  background: url("assets/auction-bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
